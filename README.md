@@ -139,7 +139,3 @@ pytest -q
 - JSON mapping file for transparent vector ID → source traceability
 - FastAPI app factory (`create_app`) for easier testing and dependency injection
 - Strict focus on `.txt` corpus and read-only query API to keep scope minimal
-
-## Résumé Project Highlights
-
-Implemented a production-style legal RAG system that ingests ~3k plain-text legal files, performs automated LLM summarization (≤100 words per document), and delivers semantic retrieval via FAISS-backed vector search through a FastAPI endpoint with source references. Built modular data loading, preprocessing, indexing, and API layers with test coverage and reproducible pipeline tooling.
